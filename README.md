@@ -1,6 +1,6 @@
 # linux-vps-utilities
 
-This repository contains different utilities for a Linux Virtual Private Server (VPS) Which can be rented from https://www.nfoservers.com/
+This repository contains different utilities for a Linux Virtual Private Server (VPS) which can be rented from https://www.nfoservers.com/
 
 Distro: Ubuntu 22.04-LTS x64
 OS: Linux machine
@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
 Utilities:
 - iptables
-> This directory contains two scripts, one is the iptables rules that you can execute, and the other is the clear rules from the system
+> This directory contains two scripts, one is to iptables rules that you can execute, and the other is the clear rules from the system
 - network
 > This directory contains two scripts, one is to capture network packets coming in the specific port for a certain amount of seconds and save it as a pcap file. The other script shows the ip connecting to the port.
 - server
