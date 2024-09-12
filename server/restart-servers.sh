@@ -4,13 +4,13 @@ read -p "[Script] Enter which server [1 or 2]: " version
 if [[ "$version" -eq "1" ]];then
 	echo "[Script] Restarting server version: $version"
 	screen -X -S game quit;
-	cd ~/l4d
-	./start_l4d.sh
+	cd ~/game
+	./start_game.sh
 elif [[ "$version" -eq "2" ]]; then
 	echo "[Script] Restarting server version: $version"
 	screen -X -S gamev2 quit;
 	cd ~/game-v2
-	./start_l4d.sh
+	./start_game.sh
 else
 	echo "[Script] running both game servers"
 	killall screen
