@@ -1,0 +1,7 @@
+# This will restart the system daily and run all necessary scripts to set up the system
+
+# put this in crontab setting by typing in this command as user:
+crontab -e
+
+35 08 * * * /home/{user}/server/sv-restart.sh
+35 08 * * * date >> /home/{user}/server/sv-restart-time.log

@@ -1,0 +1,8 @@
+# This will restart the system daily and run all necessary scripts to set up the system
+
+# put this in crontab setting by typing in this command as root user:
+crontab -e
+
+# Insert commands below
+30 08 * * * /sbin/shutdown -r now
+35 08 * * * /home/{user}/iptables/main_iptables.sh
